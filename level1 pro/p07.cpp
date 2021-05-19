@@ -1,8 +1,6 @@
 //RSA
-
-#include <bits/stdc++.h>
-#include <time.h>
 #include <windows.h>
+#include <bits/stdc++.h>
 using namespace std;
 #define maxn 100001
 #define LL long long

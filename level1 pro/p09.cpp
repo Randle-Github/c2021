@@ -5,7 +5,7 @@
 #include <ctime>
 #include <windows.h>
 using namespace std;
-const int size = 31;
+const int size = 37;
 int _map[105][105], belong[105][105];
 
 inline int _hash(int x, int y)
@@ -62,7 +62,6 @@ void create_map()
     visited++;
     while (!que.empty())
     {
-        //print_map();
         int p = que.front();
         posx = _dehashx(p);
         posy = _dehashy(p);
